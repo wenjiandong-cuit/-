@@ -61,12 +61,6 @@ def precip_levels_7days_total():
     ]
     return np.array(levels)
 
-def calculate_total_precip(rain_series):
-    """
-    输入时序降水，输出7天累计降水
-    """
-    return rain_series.isel(Time=-1) - rain_series.isel(Time=0)
-
 def plot_box_on_map(lon_min, lon_max, lat_min, lat_max, linecolor='red', linewidth=2, linestyle='-'):
     """
     在等值线/地图上画一个矩形框（用于标记关键区域）

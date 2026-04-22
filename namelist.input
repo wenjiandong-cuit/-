@@ -1,0 +1,13 @@
+&domains
+ max_dom              = 2
+ e_we                 = 120, 181
+ e_sn                 = 120, 181
+ dx                   = 27000
+ dy                   = 27000
+ grid_id              = 1, 2
+ parent_id            = 1, 1
+ i_parent_start       = 1, 30
+ j_parent_start       = 1, 30
+ parent_grid_ratio    = 1, 3
+/
+
